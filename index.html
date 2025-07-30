@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ishitha Enterprises</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: #222;
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: transparent;
+    z-index: -1;
+  }
+  header {
+    background: #004080;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 40px auto 20px auto;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 1;
+  }
+  header svg {
+    height: 60px;
+    flex-shrink: 0;
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  section, section.hero, footer {
+    background: white;
+    color: #222;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    padding: 20px 30px;
+    max-width: 900px;
+    margin: 40px auto;
+    position: relative;
+    z-index: 1;
+  }
+  section.hero {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #003366;
+  }
+  h2 {
+    color: #004080;
+    border-bottom: 3px solid #00aaff;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+  ul.services {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul.services li {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px 25px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+    margin-bottom: 20px;
+  }
+  ul.services li h3 {
+    margin: 0 0 8px 0;
+    color: #004080;
+  }
+  ul.services li p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  .service-image {
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  }
+  footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 60px;
+    font-size: 0.9rem;
+  }
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+    header svg {
+      margin-bottom: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" aria-label="Ishitha Enterprises Logo" role="img" >
+    <rect width="200" height="80" rx="15" ry="15" fill="#004080" />
+    <circle cx="40" cy="40" r="25" fill="#FFD700" />
+    <circle cx="40" cy="40" r="15" fill="#008000" />
+  </svg>
+  <h1>Ishitha Enterprises</h1>
+</header>
+
+<section class="hero">
+  <p>Your Trusted Security & Power Solutions Provider<br />
+  Serving Tumkur District & Bangalore Rural</p>
+</section>
+
+<section>
+  <h2>About Us</h2>
+  <p>Based in Kyathsandra, Tumkur, Ishitha Enterprises offers reliable and cutting-edge surveillance and power backup solutions. We serve homes, businesses, and institutions across Tumkur District and Bangalore Rural.</p>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <ul class="services">
+    <li>
+      <h3>🔆 Solar CCTV Installation</h3>
+      <p>We provide eco-friendly and reliable solar-powered CCTV solutions ideal for remote or power-challenged locations. Our solar CCTV systems ensure continuous surveillance without dependency on the electrical grid.</p>
+    </li>
+    <li>
+      <h3>📹 Dome Camera Setup</h3>
+      <p>Our dome camera installations offer discreet, vandal-resistant surveillance with wide-angle coverage, perfect for both indoor and outdoor security needs.</p>
+    </li>
+    <li>
+      <h3>🎯 Bullet Camera Systems</h3>
+      <p>We install high-resolution bullet cameras designed for long-range monitoring and weather resistance, ideal for outdoor premises and perimeter security.</p>
+    </li>
+    <li>
+      <h3>🌐 IP Camera Networks</h3>
+      <p>Our IP camera solutions enable scalable, remote-access surveillance with high-definition video and smart features such as motion detection and alerts.</p>
+    </li>
+    <li>
+      <h3>🔋 UPS & Power Backup Solutions</h3>
+      <p>We offer reliable UPS systems and power backups to keep your security devices and business operations running smoothly during power outages.</p>
+    </li>
+    <li>
+      <h3>🧬 Biometric Attendance & Access Control</h3>
+      <p>Secure your workplace with biometric systems for accurate attendance tracking and controlled access, enhancing security and efficiency.</p>
+    </li>
+  </ul>
+  <img class="service-image" src="https://images.unsplash.com/photo-1602524819742-05c5e927ccf6?auto=format&fit=crop&w=900&q=80" alt="Security Camera" />
+</section>
+
+<section>
+  <h2>Service Areas</h2>
+  <p>📍 Tumkur District | 📍 Bangalore Rural</p>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>📞 Phone: <a href="tel:+919972306767">99723 06767</a></p>
+  <p>📧 Email: <a href="mailto:ishitha.cctvservices@gmail.com">ishitha.cctvservices@gmail.com</a></p>
+  <p>📍 Address: Kyathsandra, Tumkur - 572104</p>
+</section>
+
+<footer>
+  <p>© 2025 Ishitha Enterprises. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
